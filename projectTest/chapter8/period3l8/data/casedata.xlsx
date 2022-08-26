@@ -1,0 +1,13 @@
+用例标题	标题	邮箱地址	密码	预期结果定位	预期结果
+login-001	登录成功	admin@any.com	any123	login success	登录成功！
+login-002	邮箱地址不输入		any124	email error	邮箱地址不可为空
+login-003	邮箱地址输入空格		any125	email error	邮箱地址中不能有空格
+login-004	邮箱地址长度小于6位	a@t.c	any126	email error	邮箱地址长度在6-30位
+login-005	邮箱地址长度大于30位	adminadmadminadmincimin@adminadmin.comcom	tynam127	email error	邮箱地址长度在 6～30 位
+login-006	邮箱格式错误1	adminadm123	tynam128	email error	邮箱地址格式不正确
+login-007	邮箱格式错误2	@#$%^&@f.234$%	tynam129	email error	邮箱地址格式不正确
+login-008	密码不输入	admin@tynam.com		password error	密码不可为空
+login-009	密码长度小于6位	admin@tynam.com	tynam	password error	密码长度在 6～20 位
+login-010	密码长度大于20位	admin@tynam.com	tynam133tynam133tynam133tynam133	password error	密码长度在 6～20 位
+login-011	邮箱地址不存在	admin1@tynam.com	tynam123	login fail	邮箱或密码错误！
+login-012	邮箱地址存在密码不正确	admin@tynam.com	tynam135	login fail	邮箱或密码错误！

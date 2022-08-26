@@ -1,0 +1,3 @@
+2021-11-07 18:06:28,085 - log_ing.py - DEBUG -test log
+2021-11-07 18:06:28,085 - log_ing.py - INFO -test log info
+2021-11-07 18:06:28,085 - log_ing.py - CRITICAL -test log critical

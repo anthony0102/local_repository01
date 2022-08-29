@@ -1,4 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Wed Nov 03 19:54:02 CST 2021","Wed Nov 03 19:54:02 CST 2021","0","","test_allure","","","","test_add1",""
-"passed","Wed Nov 03 19:54:02 CST 2021","Wed Nov 03 19:54:02 CST 2021","0","","test_allure","","","","test_add3",""
-"failed","Wed Nov 03 19:54:02 CST 2021","Wed Nov 03 19:54:02 CST 2021","0","","test_allure","","","","test_add2",""
